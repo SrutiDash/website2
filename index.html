@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website 2</title>
+    <style>
+        body{
+            background-image: url(background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            box-shadow: 5px 5px 5px rgb(0, 0, 0);
+            border: 5px solid black;
+            border-radius: 40px;
+            /* background-color: gray; */
+            color: rgb(158, 155, 155);
+            width: 40%;
+            /* margin-left: 30%; */
+            font-size: xx-large;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+        }
+        input{
+            width: 300px;
+            height: 40px;
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-size: large;
+            border: 3px solid white;
+        }
+        td{
+            padding-bottom: 30px;
+            padding-left: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <form>
+        <label for="t">Name</label>
+        <input type="text" id="t">
+        <br>
+        <label for="no">Number</label>
+        <input type="number" id="no">
+        <br>
+        <label for="e">Email</label>
+        <input type="email" id="e">
+        <br>
+        <label for="p">Password</label>
+        <input type="password" id="p">
+        <br>
+        <button>Login</button>
+    </form> -->
+
+    <!-- difference between using only forms and using forms inside table -->
+
+    <div>
+        <h1>Login Here</h1>
+        <form>
+        <table>
+            <tr>
+                <td> <label for="t">Name</label></td>
+                <td><input type="text" id="t"></td>
+            </tr>
+            <tr>
+                <td> <label for="no">Number</label></td>
+                <td> <input type="number" id="no"></td>
+            </tr>
+            <tr>
+                <td><label for="e">Email</label></td>
+                <td> <input type="email" id="e"></td>
+            </tr>
+            <tr>
+                <td><label for="p">Password</label></td>
+                <td><input type="password" id="p"></td>
+            </tr>
+            <tr>
+                <td><button>Login</button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
